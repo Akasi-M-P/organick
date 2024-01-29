@@ -8,8 +8,105 @@
     <script src="https://kit.fontawesome.com/9da87e2b4e.js" crossorigin="anonymous"></script>
     <!-- general css -->
     <link rel="stylesheet" href="index.css">
+    <!-- Navbar CSS -->
+    <link rel="stylesheet" href="./css/navbar.css">
+    <!-- CART CSS-->
+    <link rel="stylesheet" href="./css/cart.css">
 </head>
 <body>
-    
+    <!-- NAVBAR -->
+    <header>
+        <!-- Desktop Navbar -->
+        <nav>
+            <div class="home_link">
+                <img src="./images/Logo.png" alt="business_logo" class="home_logo">
+                <h1>Organick</h1>
+            </div>
+            <div class="nav_links">
+                <p><a href="" class="nav_link">about us</a></p>
+                <p><a href="" class="nav_link">shop</a></p>
+                <p><a href="" class="nav_link">services</a></p>
+            </div>
+            <div class="bag_link">
+                <div class="wish">
+                    <p><a href="" class="wish_link">wishlist <i class="fa-solid fa-heart" style="color: #eb0505;"></i></a></p>
+                    <p>0</p>
+                </div>
+                
+                
+                <div class="cart_link">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <div class="cart_count">
+                        <p>0</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="bars_container">
+                <div class="mobile_bars"><i class="fa-solid fa-bars" style="color: #274c5b; font-size:25px"></i></div>
+            <div class="mobile_closeNav hideItem"><i class="fa-solid fa-xmark" style="color: #274c5b;font-size:25px""></i></div>
+            </div>
+            
+        </nav>
+        <!-- Desktop Navbar Ends Here-->
+        
+    </header>
+    <header class="mobile_nav hideItem">
+            <nav>
+                <div class="mobile_nav_links">
+                <p><a href="" class="nav_link">about us</a></p>
+                <p><a href="" class="nav_link">shop</a></p>
+                <p><a href="" class="nav_link">services</a></p>
+            </div>
+            </nav>
+        </header>
+    <!-- NAVBAR ENDS HERE -->
+    <section class="cart_overlay">
+        <div class="cart">
+            <div class="closeClear_cart_container">
+            <div class="close_cart">
+                <i class="fa-solid fa-xmark" style="color: #274c5b;font-size:25px""></i>
+            </div>
+            <div class="clear_cart_container">
+                <button class="clear_cart"><p>clear cart</p></button>
+            </div>
+            </div>
+            <div class="cart_title"><h2>your cart</h2></div>
+
+        <div class="cart_product">
+            <img src="./images/tomato.png" alt="tomato">
+            <div class="cart_product_details">
+                <p class="cart_product_title">Vegan Red Tomato</p>
+                <p class="product_price">$ 12.99</p>
+                <p class="remove_cart_item">remove</p>
+            </div>
+            <div class="product_count">
+                <i class="i fas fa-chevron-up" data-id=""></i>
+                        <p class="item-amount">1</p>
+                        <i class="i fas fa-chevron-down" data-id=""></i>
+            </div>
+        </div>
+        <div class="cart_product">
+            <img src="./images/Mung Bean.png" alt="tomato">
+            <div class="cart_product_details">
+                <p class="cart_product_title">Mung Bean</p>
+                <p class="product_price">$ 12.99</p>
+                <p class="remove_cart_item">remove</p>
+            </div>
+            <div class="product_count">
+                <i class="i fas fa-chevron-up" data-id=""></i>
+                        <p class="item-amount">1</p>
+                        <i class="i fas fa-chevron-down" data-id=""></i>
+            </div>
+        </div>
+        <div class="total_price"><h3>Total : $ 12.99</h3></div>
+            <div class="payment_container">
+            <button class="make_payment"><p>make payment</p></button>
+        </div>
+        </div>
+    </section>
+    <script src="navbar.js"></script>
+    <script src="cart.js"></script>
 </body>
 </html>

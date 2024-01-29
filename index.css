@@ -3,3 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "open sans";
+    text-transform: capitalize;
+    
+}
+
+h1, h2 ,h3, h4, h5, h6, p {
+    color: #274C5B;
+}
