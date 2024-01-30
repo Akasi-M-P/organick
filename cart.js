@@ -5,7 +5,6 @@ const cartDOM = document.querySelector(".cart");
 const closeCart = document.querySelector(".close_cart");
 
 openCart.addEventListener("click", () => {
-  console.log("clicked cart");
   openCartOverlay.classList.add("transparentBcg");
   cartDOM.classList.add("showCart");
 });
