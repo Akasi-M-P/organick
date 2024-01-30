@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Yellowtail&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -12,4 +14,129 @@ body {
 
 h1, h2 ,h3, h4, h5, h6, p {
     color: #274C5B;
+}
+
+
+
+
+/* 480-less    - phone landscape & smaller */
+@media all and (max-width: 640px) {  
+    .home_hero {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    position: absolute;
+}
+
+.left_hero {
+   width: 40%;
+   position: absolute;
+   top: 50px;
+   left: 20px;
+}
+
+.right_hero {
+   width: 100%;
+    
+}
+
+.right_hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.natural {
+    font-family: "YellowTail";
+    font-size: 12px;
+}
+
+.left_hero h1 {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: none;
+}
+
+.left_hero button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    background-color: #EFD372;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-top: 5px;
+}
+
+.left_hero button p {
+    font-family: "Roboto";
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+
+}
+
+
+
+@media all and (min-width: 1024px) and (max-width: 1836px) {
+    /* Home Hero */
+.home_hero {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    position: relative;
+}
+
+.left_hero {
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    left: 300px;
+    top: 180px;
+}
+
+.right_hero {
+    width: 70%;
+    margin: auto;
+    
+}
+
+.right_hero img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.natural {
+    font-family: "YellowTail";
+    font-size: 24px;
+}
+
+.left_hero h1 {
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: none;
+}
+
+.left_hero button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    background-color: #EFD372;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-top: 20px;
+}
+
+.left_hero button p {
+    font-family: "Roboto";
+    text-transform: capitalize;
+}
 }
