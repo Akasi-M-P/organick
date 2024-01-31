@@ -82,6 +82,7 @@ h1, h2 ,h3, h4, h5, h6, p {
     width: 100%;
     margin-top: 250px;
     display: flex;
+    
 }
 
 .home_part1_left {
@@ -102,8 +103,79 @@ h1, h2 ,h3, h4, h5, h6, p {
     width: 100%;
 }
 
-
+/* HOME PART 2 */
+.home_part2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
 }
+
+.home_part2_left {
+    width: 90%;
+    margin: auto;
+}
+
+.home_part2_left img {
+    width: 100%;
+}
+
+.home_part2_right {
+    width: 90%;
+    margin: auto;
+}
+
+.part2_about {
+    font-family: "YellowTail";
+    font-size: 32px;
+    color: #7EB693;
+}
+
+.home_part2_right h1 {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.home_part2_right p {
+   font-size: 14px;
+   text-align: justify;
+}
+
+.part2_imgText {
+    display: flex;
+    margin-top: 10px;
+}
+
+.part2_imgText p {
+ font-size: 14px;
+}
+
+.part2_imgText img {
+    width: 100px;
+}
+
+.part2_imgText h2 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.home_part2_right button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 15px 20px;
+    background-color: #274C5B;
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+.home_part2_right button p {
+color: #fff;
+}
+}
+
+
 
 
 /* TABLET VIEW */
@@ -164,6 +236,32 @@ h1, h2 ,h3, h4, h5, h6, p {
     text-transform: capitalize;
     font-size: 18px;
 }
+
+
+.home_part1 {
+    width: 100%;
+    margin-top: 450px;
+    display: flex;
+}
+
+.home_part1_left {
+    width: 45%;
+    margin: auto;
+}
+
+.home_part1_right {
+    width: 45%;
+    margin: auto;
+}
+
+.home_part1_left img {
+    width: 100%;
+}
+
+.home_part1_right img {
+    width: 100%;
+}
+
 }
 
 
@@ -226,4 +324,32 @@ h1, h2 ,h3, h4, h5, h6, p {
     font-family: "Roboto";
     text-transform: capitalize;
 }
+
+
+
+.home_part1 {
+    width: 100%;
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home_part1_left {
+    width: 35%;
+}
+
+.home_part1_right {
+    width: 35%;
+}
+
+.home_part1_left img {
+    width: 100%;
+}
+
+.home_part1_right img {
+    width: 100%;
+}
+
+
 }
