@@ -169,12 +169,10 @@ nav {
 
 .mobile_nav {
     position: absolute;
-    z-index: 1;
     animation: fadeIn 1s ease-in-out forwards; 
     overflow: hidden;
     position: sticky;
     top: 0; 
-    z-index: 100;
 }
 
    /* Define the fadeIn animation */
