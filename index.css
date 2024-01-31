@@ -144,7 +144,7 @@ h1, h2 ,h3, h4, h5, h6, p {
 
 .part2_imgText {
     display: flex;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .part2_imgText p {
@@ -172,6 +172,11 @@ h1, h2 ,h3, h4, h5, h6, p {
 
 .home_part2_right button p {
 color: #fff;
+text-transform: capitalize;
+}
+
+.marginTop {
+    margin-top: 20px;
 }
 }
 
