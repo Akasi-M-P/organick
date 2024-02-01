@@ -493,11 +493,12 @@ text-transform: capitalize;
     margin: 100px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 50px;
 }
 
 .product {
     width: 80%;
+    height: 400px;
     margin: auto;
     position: relative;
     background-color: #F9F8F8;
@@ -779,10 +780,12 @@ text-transform: capitalize;
     margin: 100px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
 }
 
 .product {
     width: 80%;
+    height: 400px;
     margin: auto;
     position: relative;
     background-color: #F9F8F8;
