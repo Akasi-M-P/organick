@@ -99,6 +99,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
+    position: relative;
+    z-index: 100;
     }
 
     .home_logo {
@@ -172,7 +174,8 @@ nav {
     animation: fadeIn 1s ease-in-out forwards; 
     overflow: hidden;
     position: sticky;
-    top: 0; 
+    top: 0;
+   
 }
 
    /* Define the fadeIn animation */

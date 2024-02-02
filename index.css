@@ -225,7 +225,6 @@ text-transform: capitalize;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
-    margin-left: 20px;
     margin-top: 20px;
 }
 
@@ -301,6 +300,39 @@ text-transform: capitalize;
     font-size: 16px;
 }
 
+
+
+.category_wish {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addToWish {
+    margin-top: 20px;
+}
+
+.title_addToCart {
+    display: flex;
+    gap: 20px;
+}
+
+.addToCart {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 5px;
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: #274C5B;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.addToCart p {
+    text-transform: capitalize;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
 
@@ -512,7 +544,6 @@ text-transform: capitalize;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
-    margin-left: 20px;
     margin-top: 20px;
 }
 
@@ -586,6 +617,38 @@ text-transform: capitalize;
     color: #fff;
     font-family: "Roboto";
     font-size: 16px;
+}
+
+.category_wish {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addToWish {
+    margin-top: 20px;
+}
+
+.title_addToCart {
+    display: flex;
+    gap: 10px;
+}
+
+.addToCart {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 5px;
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: #274C5B;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.addToCart p {
+    text-transform: capitalize;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -798,7 +861,7 @@ text-transform: capitalize;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-right: 70px;
     margin-top: 20px;
 }
 
@@ -874,7 +937,37 @@ text-transform: capitalize;
     font-size: 16px;
 }
 
+.category_wish {
+    display: flex;
+    justify-content: space-around;
+}
 
+.addToWish {
+    margin-top: 20px;
+}
+
+.title_addToCart {
+    display: flex;
+    gap: 20px;
+}
+
+.addToCart {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 5px;
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: #274C5B;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.addToCart p {
+    text-transform: capitalize;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
 }
